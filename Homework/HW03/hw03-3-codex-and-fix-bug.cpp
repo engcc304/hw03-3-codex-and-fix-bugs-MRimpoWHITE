@@ -177,11 +177,11 @@ int main() {
         }
 
         printf("\nMatrix1 x Matrix2 is : \n");
-        for (i = 0; i <= rows4; i++) {
+        for (i = 0; i < rows4; i++) {
             for (j = 0; j < cols4; j++) {
                 printf("%d ", Matrix4[i][j]);
             }
-            printf("\n");
+            printf("\n \n");
         }
     }
 
