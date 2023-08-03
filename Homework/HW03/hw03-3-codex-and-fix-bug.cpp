@@ -14,7 +14,7 @@ int main()
         for (j = 0; j < cols1; j++)
         {
             printf("Enter [%d %d] value : ", i, j);
-            scanf("%d", Matrix2[i][j]);
+            scanf("%d", Matrix1[i][j]);
         }
     }
 
@@ -92,7 +92,7 @@ int main()
         {
             for (j = 0; j < cols4; j++)
             {
-                printf("%d ", &Matrix4[i][j]);
+                printf("%d ", Matrix4[i][j]);
             }
             printf("\n");
         } // end for
