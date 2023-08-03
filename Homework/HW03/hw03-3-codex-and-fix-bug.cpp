@@ -39,7 +39,7 @@ int main()
     {
         for (j = 0; j < cols1; j++)
         {
-            printf("%d ", &Matrix1[i][j]);
+            printf("%d ", Matrix1[i][j]);
         }
         printf("\n");
     }
@@ -49,9 +49,9 @@ int main()
     {
         for (j = 0; j < cols2; j++)
         {
-            printf("%d ", &Matrix2[i][j]);
+            printf("%d ", Matrix2[i][j]);
         }
-        printf("\n") ;
+        printf("\n");
     }
 
     rows3 = cols1;
@@ -68,9 +68,9 @@ int main()
     {
         for (j = 0; j < cols3; j++)
         {
-            printf("%d ", &Matrix3[i][j]) ;
+            printf("%d ", Matrix3[i][j]);
         }
-        printf("\n") ;
+        printf("\n");
     }
 
     if (cols1 != rows2)
@@ -95,7 +95,7 @@ int main()
         {
             for (j = 0; j < cols4; j++)
             {
-                printf("%d ", &Matrix4[i][j]);
+                printf("%d ", Matrix4[i][j]);
             }
             printf("\n");
         } // end for
