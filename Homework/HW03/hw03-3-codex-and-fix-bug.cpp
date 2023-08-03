@@ -14,7 +14,7 @@ int main()
         for (j = 0; j < cols1; j++)
         {
             printf("Enter [%d %d] value : ", i, j);
-            scanf("%d", Matrix1[i][j]);
+            scanf("%d", &Matrix1[i][j]);
         }
     }
 
