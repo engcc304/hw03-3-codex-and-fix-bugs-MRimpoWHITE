@@ -1,5 +1,8 @@
 #include <stdio.h>
 
+#define ROWS 5
+#define COLS 5
+
 int main()
 {
     int Matrix1[5][5], Matrix2[5][5], Matrix3[5][5], Matrix4[5][5];
