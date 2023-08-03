@@ -93,8 +93,9 @@ int main()
             for (j = 0; j < cols4; j++)
             {
                 printf("%d ", Matrix4[i][j]);
+                printf("\n");
             }
-            // printf("\n");
+            
         } // end for
     }     // end else
     return 0;
