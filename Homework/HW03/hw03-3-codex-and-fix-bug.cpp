@@ -181,8 +181,9 @@ int main() {
             for (j = 0; j < cols4; j++) {
                 printf("%d ", Matrix4[i][j]);
             }
-            printf("\n \n");
+            printf("\n");
         }
+        printf("\n");
     }
 
     return 0;
